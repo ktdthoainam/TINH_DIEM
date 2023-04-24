@@ -30,5 +30,5 @@ showPoinBtn.addEventListener("click",function() {
     }
     let poinHtml = Number(marthPoinElement)+Number(literaturePoinElement)+Number(englishPoinElement)+ areaPoin;
     let result = document.getElementById("result");
-    result.innerHTML = `Diem la: ${poinHtml}`;
+    result.innerHTML = `Tong diem la: ${poinHtml}`;
 });
